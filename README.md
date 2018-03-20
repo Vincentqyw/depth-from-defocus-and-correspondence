@@ -1,8 +1,8 @@
 This package contains the following:
 
-** I.  compute_LFdepth.m   : estimates depth of a Lytro LF Image**
+**I.  compute_LFdepth.m   : estimates depth of a Lytro LF Image**
 
-** II. raw2jpeg/raw2jpeg.m : converts lytro .lfp image to .jpeg**
+**II. raw2jpeg/raw2jpeg.m : converts lytro .lfp image to .jpeg**
 
 
 **demo_run** is an example for compute_LFdepth.m
@@ -14,8 +14,8 @@ raw2jpeg/demo_run is an example for raw2jpeg.m
 computes the depth estimation of a Lytro LF Image
 
 **Input**  : file_path    (file path to the .jpeg file)
-**Output** : depth_output (x,y) buffer that contains 0-255
-                      0 is closest, 255 is farthest
+
+**Output** : depth_output (x,y) buffer that contains 0-255; 0 is closest, 255 is farthest
 
 NOTE   : This function supports our Lytro camera. Lytro cameras have manufacturing inconsistencies for the micro-lens array.
 
