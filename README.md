@@ -1,5 +1,7 @@
 This package contains the following:
+
 ** I.  compute_LFdepth.m   : estimates depth of a Lytro LF Image**
+
 ** II. raw2jpeg/raw2jpeg.m : converts lytro .lfp image to .jpeg**
 
 
